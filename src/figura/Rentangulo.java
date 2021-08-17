@@ -13,7 +13,9 @@ public class Rentangulo {
 		return "Rentangulo [ancho=" + ancho + ", alto=" + alto + "]";
 	}
 	
-	
+	public double getPerimetro() {
+		return this.alto*2+this.ancho*2;
+	}
 	
 
 }
